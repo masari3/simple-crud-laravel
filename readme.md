@@ -1,5 +1,10 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
+<p align="center">
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+</p>
+
 ## Basic Crud Laravel
 - Projek ini adalah contoh dasar crud pada framework laravel
 - Tanpa menggunakan template lain. Hanya memaksimalkan penggunaan blade template bawaan framework
@@ -20,11 +25,10 @@
 - Jalankan migrasi database (tanpa harus membuat manual database mysql)
 `php artisan migrate`
 
-## Tes
-Masih dalam terminal, ketikkan perintah
+## Mulai Tes
+- Masih dalam terminal, ketikkan perintah
 `php artisan serv`
-
-Buka Browser ketik alamat url
+- Buka Browser ketik alamat url
 `localhost:8000` atau `127.0.0.0:8000`
 
 ## License
