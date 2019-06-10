@@ -14,8 +14,8 @@
 - Dengan tidak mengurangi rasa hormat dan berbagi, mohon yang mengclone projek ini digunakan untuk hal-hal yang positif, baik, dan tidak melanggar nilai-nilai agama (Islam). 
 - Atau dengan kata lain, jangan digunakan untuk projek Riba, Judi, Jual-beli barang haram, dan sebagainya.
 
-## Penggunaan / Clonning
-### Terminal
+## Penggunaan
+- Buka terminal atau command prompt (Win)
 `git clone https://github.com/saadbi/simple-crud-laravel`
 
 ## Instalasi Db
