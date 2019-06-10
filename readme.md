@@ -15,7 +15,7 @@
 - Atau dengan kata lain, jangan digunakan untuk projek Riba, Judi, Jual-beli barang haram, dan sebagainya.
 
 ## Penggunaan
-- Buka terminal atau command prompt (Win)
+- Buka terminal atau command prompt (Win)<br/>
 `git clone https://github.com/saadbi/simple-crud-laravel`
 
 ## Instalasi Db
