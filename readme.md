@@ -14,23 +14,27 @@
 - Dengan tidak mengurangi rasa hormat dan berbagi, mohon yang mengclone projek ini digunakan untuk hal-hal yang positif, baik, dan tidak melanggar nilai-nilai agama (Islam). 
 - Atau dengan kata lain, jangan digunakan untuk projek Riba, Judi, Jual-beli barang haram, dan sebagainya.
 
-## Penggunaan
-- Buka terminal atau command prompt (Win)<br/>
+## Penggunaan / Clonning
+### Terminal
 `git clone https://github.com/saadbi/simple-crud-laravel`
 
 ## Instalasi Db
 - Copy file `.env-example` menjadi `.env` dan ubah konfigurasinya.
 - Buka Terminal, kemudian masuk ke direktori projek<br/>
 `cd simple-crud-laravel`
-- Jalankan migrasi database (tanpa harus membuat manual database mysql)<br/>
+- Jalankan migrasi database (tanpa harus membuat manual database mysql)
 `php artisan migrate`
 
 ## Mulai Tes
-- Masih dalam terminal, ketikkan perintah<br/>
+- Masih dalam terminal, ketikkan perintah
 `php artisan serv`
-- Buka Browser ketik alamat url<br/>
+- Buka Browser ketik alamat url
 `localhost:8000` atau `127.0.0.0:8000`
 
 ## License
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Author
+Fitri Ariyanto
+GNU/Linux - MikroTik - RouterOS - PHP - MySQL - Laravel
