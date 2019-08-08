@@ -13,6 +13,7 @@
 - Dengan adanya projek ini, bagi yang menemukannya silahkan digunakan untuk latihan atau membuat aplikasi lainnya.
 - Dengan tidak mengurangi rasa hormat dan berbagi, mohon yang mengclone projek ini digunakan untuk hal-hal yang positif, baik, dan tidak melanggar nilai-nilai agama (Islam). 
 - Atau dengan kata lain, jangan digunakan untuk projek Riba, Judi, Jual-beli barang haram, dan sebagainya.
+- Jika melanggar, saya tidak akan ridho dunia akhirat.
 
 ## Penggunaan / Clonning
 ### Terminal
@@ -22,13 +23,13 @@
 - Copy file `.env-example` menjadi `.env` dan ubah konfigurasinya.
 - Buka Terminal, kemudian masuk ke direktori projek<br/>
 `cd simple-crud-laravel`
-- Jalankan migrasi database (tanpa harus membuat manual database mysql)
+- Jalankan migrasi database (tanpa harus membuat manual database mysql)<br/>
 `php artisan migrate`
 
 ## Mulai Tes
-- Masih dalam terminal, ketikkan perintah
+- Masih dalam terminal, ketikkan perintah<br/>
 `php artisan serv`
-- Buka Browser ketik alamat url
+- Buka Browser ketik alamat url<br/>
 `localhost:8000` atau `127.0.0.0:8000`
 
 ## License
