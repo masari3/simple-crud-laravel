@@ -1,8 +1,10 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+<a href="https://packagist.org/packages/laravel/framework">
+	<img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework">
+	<img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
 ## Basic Crud Laravel
@@ -24,7 +26,11 @@
 - Buka Terminal, kemudian masuk ke direktori projek<br/>
 `cd simple-crud-laravel`
 - Jalankan migrasi database (tanpa harus membuat manual database mysql)<br/>
-`php artisan migrate`
+`php artisan migrate` atau `php artisan migrate:refresh`
+- Jalankan seeder untuk pengguna / login admin
+`php artisan db:seed`
+username: `admin@mail.com`
+password: `1`
 
 ## Mulai Tes
 - Masih dalam terminal, ketikkan perintah<br/>
