@@ -28,10 +28,10 @@
 - Jalankan migrasi database (tanpa harus membuat manual database mysql)<br/>
 `php artisan migrate` atau `php artisan migrate:refresh`
 - Jalankan seeder untuk pengguna / login admin
-`php artisan db:seed`
-<br/>
-username: `admin@mail.com` <br/>
-password: `1`
+`php artisan db:seed` 
+- Login dengan email dan password berikut
+`username`: `admin@mail.com`  <br/>
+`password`: `1`
 
 ## Mulai Tes
 - Masih dalam terminal, ketikkan perintah<br/>
