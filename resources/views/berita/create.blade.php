@@ -25,7 +25,7 @@
 
                     <form method="POST" action="{{ route('berita.store') }}">
                         @csrf
-                        <input id="id_usr" name="id_usr" type="text" hidden value="{{ Auth::user()->id_usr }}">
+                        <input id="user_id" name="user_id" type="text" hidden value="{{ Auth::user()->id }}">
                         <div class="form-group row">
                             <label for="judul" class="col-md-2 col-form-label text-md-right">{{ __('Judul') }}</label>
 

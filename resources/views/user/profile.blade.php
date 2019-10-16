@@ -14,13 +14,13 @@
                         </div>
                     @endif
 
-                    <form method="POST" action="{{ route('user.change', Auth::user()->id_usr) }}" enctype="multipart/form-data">
+                    <form method="POST" action="{{ route('user.change', Auth::user()->id) }}" enctype="multipart/form-data">
                         @csrf @method('PATCH')
                         <div class="box box-primary">
                             <div class="box-body box-profile">
                                 <img class="profile-user-img img-responsive img-circle" src="../img/{{ Auth::user()->foto }}" alt="User profile picture">
 
-                                <h3 class="profile-username text-center">{{ Auth::user()->nama_usr}}</h3>
+                                <h3 class="profile-username text-center">{{ Auth::user()->nama}}</h3>
 
                                 <p class="text-muted text-center">Software Engineer</p>
                             </div>

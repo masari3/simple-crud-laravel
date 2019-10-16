@@ -21,7 +21,7 @@ class BeritaController extends Controller
         $limit = 5;
         $no = 0;
         $berita = Berita::leftjoin('kategori', 'kategori.id_kat', '=', 'berita.id_kat')
-        ->leftjoin('users', 'users.id_usr', '=', 'berita.id_usr')->get();
+        ->leftjoin('users', 'users.id', '=', 'berita.user_id')->get();
 
         return view('berita.index', ['berita' => $berita], compact('berita', 'no', 'kategori', 'users'));
     }
@@ -38,7 +38,7 @@ class BeritaController extends Controller
         $berita->judul = $request['judul'];
         $berita->id_kat = $request['id_kat'];
         $berita->isi = $request['isi'];
-        $berita->id_usr = $request['id_usr'];
+        $berita->user_id = $request['user_id'];
         $berita->save();
 
         return Redirect::route('berita.index')->with('msg','Data telah berhasil disimpan!');
@@ -59,7 +59,7 @@ class BeritaController extends Controller
         $berita->judul = $request['judul'];
         $berita->id_kat = $request['id_kat'];
         $berita->isi = $request['isi'];
-        $berita->id_usr = $request['id_usr']; 
+        $berita->user_id = $request['user_id']; 
         $berita->update();   
 
         return Redirect::route('berita.index')->with('msg','Data telah berhasil diperbarui!');
