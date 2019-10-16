@@ -10,10 +10,10 @@ class User extends Authenticatable
 {
     use Notifiable;
     protected $table = 'users';
-    protected $primaryKey = 'id_usr';
+    // protected $primaryKey = 'id_usr';
 
     protected $fillable = [
-        'nama_usr', 'email', 'password', 'hp',
+        'nama', 'email', 'password', 'hp',
     ];
 
     protected $hidden = [
