@@ -29,7 +29,8 @@
 `php artisan migrate` atau `php artisan migrate:refresh`
 - Jalankan seeder untuk pengguna / login admin
 `php artisan db:seed`
-username: `admin@mail.com`
+<br/>
+username: `admin@mail.com` <br/>
 password: `1`
 
 ## Mulai Tes
